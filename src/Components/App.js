@@ -11,6 +11,9 @@ import Cart from "./Cart";
 import CheckOut from "./CheckOut";
 import SingleProduct from "./SingleProduct";
 import Contact from "./Contact";
+import AdminHome from "./Admin/AdminHome";
+import AdminMainCategory from "./Admin/AdminMainCategory";
+import AdminAddMainCategory from "./Admin/AdminAddMainCategory.jsx";
 
 const App = () => {
   return (
@@ -25,6 +28,9 @@ const App = () => {
           <Route path="/checkout" element={<CheckOut />}/>
           <Route path="/single-product" element={<SingleProduct />}/>
           <Route path="/contact" element={<Contact />}/>
+          <Route path="/admin" element={<AdminHome />}/>
+          <Route path="/admin-maincategory" element={<AdminMainCategory />}/>
+          <Route path="/admin-add-maincategory" element={<AdminAddMainCategory />}/>
         </Routes>
         <Footer />
       </BrowserRouter>

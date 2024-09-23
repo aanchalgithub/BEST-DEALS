@@ -38,66 +38,34 @@ export default function Navbar() {
                     <li>
                         <Link to="/shop">Shop</Link>
                     </li>
-                   
-                    <li>
-                      <Link to="#">Pages</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="404.html">404 page</a>
-                        </li>
-                        <li>
-                          <a href="about.html">About</a>
-                        </li>
-                        <li>
-                          <a href="cart.html">Cart</a>
-                        </li>
-                        <li>
-                          <a href="checkout.html">Check Out</a>
-                        </li>
-                        <li>
-                          <a href="contact.html">Contact</a>
-                        </li>
-                        <li>
-                          <a href="news.html">News</a>
-                        </li>
-                        <li>
-                          <a href="shop.html">Shop</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="news.html">News</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="news.html">News</a>
-                        </li>
-                        <li>
-                          <a href="single-news.html">Single News</a>
-                        </li>
-                      </ul>
-                    </li>
                     <li>
                       <Link to="/contact">Contact</Link>
                     </li>
                     <li>
-                      <a href="shop.html">Shop</a>
+                      <Link to="/admin">Admin</Link>
+                    </li>
+                   
+               
+                    <li>
+                      <div className="header-icons">
+                      <li>
+                      <a href="shop.html">Aanchal Verma</a>
                       <ul className="sub-menu">
                         <li>
-                          <a href="shop.html">Shop</a>
+                          <Link href="/profile">Profile</Link>
+                        </li>
+                        <li>
+                          <Link href="/cart">Cart</Link>
                         </li>
                         <li>
                           <Link to="/checkout">Check Out</Link>
                         </li>
                         <li>
-                          <Link to="single-product">Single Product</Link>
+                          <Link to="single-product">Logout</Link>
                         </li>
-                        <li>
-                          <Link to="/cart">Cart</Link>
-                        </li>
+                       
                       </ul>
                     </li>
-                    <li>
-                      <div className="header-icons">
                         <Link className="shopping-cart" to="/cart">
                           <i className="fas fa-shopping-cart"></i>
                         </Link>
@@ -106,6 +74,7 @@ export default function Navbar() {
                         </a>
                       </div>
                     </li>
+                    
                   </ul>
                 </nav>
                 <a className="mobile-show search-bar-icon" href="#">
